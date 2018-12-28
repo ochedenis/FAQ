@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(img/small-girl.jpg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 550px;
+}
+
+p {
+  cursor: default;
+}
+
+#toTop {
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.quote {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.example-image-link {
+  text-decoration: none;
+  color: #f6dec4;
+  text-shadow: 0 0 3px black;
+  font-family: 'Caveat', cursive;
+  cursor: pointer;
+}
+
+.example-image-link p {
+  cursor: pointer;
+}
+
+.example-image-link:hover {
+  text-shadow: 0 0 3px lightgray;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.wayback {
+  text-align: center;
+}
+
+.wayback a{
+  text-decoration: none;
+  color: #807e31;
+  font-size: 18px;
+  font-family: 'Kavivanar', cursive;
+}
+
+.wayback a:hover {
+  font-weight: bold;
+  color: #eedbcd;
+}
+
+.top {
+  margin-top: 35px;
+  margin-bottom: -20px;
+}
+
+.firstquote {
+  white-space: pre-wrap;
+  font-family: 'Gabriela', serif;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.autor {
+  text-align: right;
+  font-family: 'Gabriela', serif;
+  margin-top: -40px;
+}
+
+.bot {
+  margin-top: 30px;
+  margin-bottom: -10px
+}
+
+.secondquote {
+  white-space: pre-wrap;
+  font-size: 28px;
+  font-family: 'Caveat', cursive;
+  margin: 10px 0;
+}
+
+.photo {
+  text-align: center;
+
+}
+
+.photo img {
+  border: 5px solid lightgray;
+  border-radius: 15px;
+}
+
+.delimiter {
+  margin: 30px 0;
+}
+
+footer img {
+  margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .photo img {
+    width: 80%;
+  }
+}

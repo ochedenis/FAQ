@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(img/lightrays.jpg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 500px;
+}
+
+p {
+  cursor: default;
+}
+
+#toTop {
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.wayback {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.wayback a{
+  text-decoration: none;
+  color: #233a39;
+}
+
+.wayback a:hover {
+  color: #fcfcdc;
+  text-shadow: 0 0 3px #fffffc;
+}
+
+.head {
+  margin: 100px auto;
+  max-width: 950px;
+}
+
+.quote {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  white-space: pre-wrap;
+  color: white;
+  text-shadow: 0 0 3px black;
+  line-height: 1;
+  font-size: 23px;
+}
+
+.second {
+  margin-top: 100px;
+}
+
+.BC {
+  color: white;
+  text-align: right;
+  font-size: 11px;
+  margin-top: -40px;
+  margin-right: 85px;
+}
+
+.txt {
+  white-space: pre-wrap;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  line-height: 1.8;
+}
+
+.autor {
+  text-align: right;
+  margin-top: -55px;
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.top {
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+.bot {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+footer {
+  background: url(img/storm.jpg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.foot {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 200px;
+}
+
+.result {
+  text-align: center;
+  white-space: pre-wrap;
+  font-family: 'Neucha', cursive;
+  color: white;
+  text-shadow: 0 0 3px black;
+  font-size: 28px;
+}
+
+.first {
+  font-size: 24px;
+}
+
+.AK{
+  color: white;
+  text-align: right;
+  font-size: 11px;
+  margin-top: -65px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-height: 600px) {
+
+  .head {
+    margin: 20px auto;
+  }
+
+  .foot {
+    padding-top: 20px;
+
+  }
+}

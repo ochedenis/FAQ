@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-family: 'Aguafina Script', cursive;
+  font-size: 25px;
+  cursor: default;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: lightgray;
+  text-shadow: 1px 1px 2px black;
+}
+
+p {
+  cursor: default;
+}
+
+#toTop {
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.img {
+  text-align: center;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+p {
+  white-space: pre-wrap;
+  font-family: 'Kurale', serif;
+  font-size: 23px;
+  line-height: 1.2;
+}
+
+.opening {
+  margin-top: -25px;
+}
+
+.delimiter {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.autor {
+  text-align: right;
+  margin-top: -30px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 960px) {
+  .img img {
+    width: 80%;
+  }
+}

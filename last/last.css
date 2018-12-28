@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Condiment', cursive;
+}
+
+div {
+  text-align: center;
+  margin-top: 3%;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+
+@media only screen and (max-width: 680px) {
+ img {
+    width: 80%;
+  }
+}

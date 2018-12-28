@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+  font-size: 23px;
+  cursor: default;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: lightgray;
+  text-shadow: 1px 1px 2px black;
+}
+
+p {
+  cursor: default;
+}
+
+#toTop {
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.img {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.img img {
+  border: 5px solid gray;
+  border-radius: 100px;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+p {
+  white-space: pre-wrap;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.2;
+}
+
+.delimiter {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.autor {
+  text-align: right;
+  margin-top: -40px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .img img {
+    width: 80%;
+  }
+}

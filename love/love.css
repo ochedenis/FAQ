@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(img/unselfishness.jpg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 380px;
+}
+
+p {
+  cursor: default;
+}
+
+#toTop {
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.quote {
+  max-width: 575px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 35px;
+  text-shadow: 0 0 2px black;
+  line-height: 1.6;
+  font-family: 'Marck Script', cursive;
+
+}
+
+.example-image-link {
+  text-decoration: none;
+  color: #a9833c;
+}
+
+.example-image-link p {
+  cursor: pointer;
+}
+
+.example-image-link:hover {
+  text-shadow: 0 0 3px lightgray;
+}
+
+.quote .autor {
+  color: #7e7d79;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.wayback {
+  text-align: center;
+}
+
+.wayback a{
+  text-decoration: none;
+  color: #ebdfcd;
+}
+
+.wayback a:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px lightgrey;
+}
+
+.DRquote {
+  white-space: pre-wrap;
+  line-height: 1;
+  font-size: 23px;
+  font-family: 'Kurale', serif;
+}
+
+.autor {
+  text-align: right;
+  font-size: 15px;
+  margin-top: -40px;
+  margin-right: 5px;
+}
+
+.AVquote {
+  white-space: pre-wrap;
+  line-height: 1.2;
+  font-size: 25px;
+  font-family: 'Marck Script', cursive;
+}
+
+.quotes {
+  white-space: pre-wrap;
+  font-size: 25px;
+  font-family: 'Bad Script', cursive;
+  line-height: 1.5;
+}
+
+.delimiter {
+  margin-top: 30px;
+}
+
+.second, .third {
+  margin-top: -20px;
+}
+
+.photo {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.photo img {
+  border-radius: 15px;
+}
+
+.photo img:hover {
+  box-shadow: 0 0 3px black;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer img {
+  margin-bottom: -20px;
+}

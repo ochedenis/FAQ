@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(img/others.jpg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 800px;
+}
+
+p {
+  cursor: default;
+}
+
+#toTop {
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.wayback {
+  text-align: center;
+}
+
+.wayback a{
+  text-decoration: none;
+  color: black;
+}
+
+.wayback a:hover {
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.head {
+  margin: 50px auto;
+  max-width: 700px;
+}
+
+.quote {
+  text-align: center;
+  white-space: pre-wrap;
+  color: #fcfcdc;
+  text-shadow: 1px 1px 3px black;
+  line-height: 1;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+}
+
+.autor {
+  color: #fcfcdc;
+  text-align: right;
+  font-size: 12px;
+  margin-top: -50px;
+  font-family: 'Gabriela', serif;
+  margin-right: 5px;
+}
+
+.poem {
+  font-weight: normal;
+  margin-top: -20px;
+  font-family: 'Marck Script', cursive;
+  font-size: 28px;
+}
+
+.ZZ {
+  margin-right: 100px;
+}
+
+.unc {
+  color: black;
+  margin-top: -40px;
+}
+
+.others {
+  margin-top: 0px;
+  white-space: pre-wrap;
+  font-family: 'Kurale', serif;
+  line-height: 1;
+  font-size: 20px;
+}
+
+footer {
+  background: url(img/individuality.jpg) no-repeat center top/cover;
+  height: 100vh;
+  margin-top: -20px;
+  min-height: 550px;
+}
+
+.end {
+max-width: 660px;
+margin: 0 auto;
+}
+
+.resume {
+  text-align: center;
+  white-space: pre-wrap;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  line-height: 1;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.first {
+  padding-top: 200px;
+}
+
+.second {
+  font-size: 33px;
+  color: black;
+  text-shadow: 1px 1px 3px white;
+}
+
+.last {
+  text-align: right;
+  font-size: 12px;
+  margin-top: -70px;
+  color: black;
+  text-shadow: 0 0 3px white;
+  font-family: 'Gabriela', serif;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    min-height: 1000px;
+  }
+
+  .ZZ {
+    margin-right: 60px;
+  }
+
+  .first {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  header {
+    min-height: 1300px;
+  }
+
+  .ZZ {
+    margin-right: 20px;
+  }
+
+  .first {
+    padding-top: 25px;
+  }
+}

@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+  background: url(../img/mground.jpg) no-repeat center top/cover;
+  height: 100vh;
+  min-height: 620px;
+}
+
+.txt {
+  height: auto;
+  max-width: 900px;
+  padding-top: 7%;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.menu {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 20%;
+}
+
+.menu div {
+  padding-top: 10px;
+}
+
+.quote {
+  font-family: 'Marck Script', cursive;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.autor {
+  font-family: 'Marck Script', cursive;
+  text-align: right;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Lobster', cursive;
+}
+
+.first {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.first a:hover {
+  text-shadow: 0 0 3px #37ff40;
+}
+
+.second {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.second a:hover {
+  text-shadow: 0 0 3px #e6f40b;
+}
+
+.love a:hover {
+  text-shadow: 0 0 3px red;
+}
+
+.third {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.third a:hover {
+  text-shadow: 0 0 5px grey;
+}
+
+.fourth {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fourth a:hover {
+  text-shadow: 0 0 5px #ebb9ee;
+}
+
+.fifth {
+  font-size: 15px;
+}
+
+.fifth a:hover {
+  text-shadow: 0 0 3px black;
+}
+
+footer {
+  background-color: #ddd;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+sup {
+  font-size: 10px;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+}
+
+.right {
+  float:right;
+  margin-right: 20px
+}
+
+@media only screen and (max-width: 660px) {
+    header {
+        background: white;
+    }
+}
